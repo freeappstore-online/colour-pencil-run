@@ -1,0 +1,14 @@
+{
+  "name": "colour-pencil-run",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @colour-pencil-run/web dev",
+    "build": "pnpm --filter @colour-pencil-run/web build",
+    "preview": "pnpm --filter @colour-pencil-run/web preview",
+    "typecheck": "pnpm --filter @colour-pencil-run/web exec tsc -b",
+    "test": "pnpm --filter @colour-pencil-run/web test"
+  }
+}

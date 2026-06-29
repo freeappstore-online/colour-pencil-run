@@ -1,0 +1,9 @@
+{
+  "name": "Colour Pencil Run",
+  "short_name": "Pencil Run",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e74c3c",
+  "orientation": "any"
+}
