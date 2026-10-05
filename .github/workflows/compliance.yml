@@ -1,0 +1,12 @@
+name: Platform Compliance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  compliance:
+    uses: freeappstore-online/ci-workflows/.github/workflows/app-ci.yml@main
+    secrets: inherit
