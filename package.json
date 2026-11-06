@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @colour-pencil-run/web dev",
     "build": "pnpm --filter @colour-pencil-run/web build",
     "preview": "pnpm --filter @colour-pencil-run/web preview",
-    "typecheck": "pnpm --filter @colour-pencil-run/web exec tsc -b",
-    "test": "pnpm --filter @colour-pencil-run/web test"
+    "typecheck": "pnpm --filter @colour-pencil-run/web exec tsc -b"
   }
 }
