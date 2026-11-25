@@ -803,14 +803,12 @@ export default function App() {
         {gameState === "playing" && (
           <div className="flex gap-4 md:hidden">
             <button
-              onTouchStart={(e) => { e.preventDefault(); moveLeft(); }}
-              onClick={moveLeft}
+              onPointerDown={moveLeft}
               className="flex-1 py-3 rounded-xl font-bold text-xl active:scale-95 transition-transform"
               style={{ background: curColor, color: "#fff", minWidth: 90 }}
             >◀ Left</button>
             <button
-              onTouchStart={(e) => { e.preventDefault(); moveRight(); }}
-              onClick={moveRight}
+              onPointerDown={moveRight}
               className="flex-1 py-3 rounded-xl font-bold text-xl active:scale-95 transition-transform"
               style={{ background: curColor, color: "#fff", minWidth: 90 }}
             >Right ▶</button>
