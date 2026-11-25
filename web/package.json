@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "^19",
     "react-dom": "^19",
-    "@freeappstore/sdk": "^0.16.41"
+    "@freeappstore/sdk": "^0.17.2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1",
